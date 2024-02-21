@@ -1,11 +1,11 @@
 # The Pearson Product Moment
 From: https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
-    > Pearson's correlation coefficient is the
-    > covariance of the two variables divided by
-    > the product of their standard deviations.
-    > The form of the definition involves a "product moment",
-    > that is, the mean (the first moment about the origin)
-    > of the product of the mean-adjusted random variables.
+> Pearson's correlation coefficient is the
+> covariance of the two variables divided by
+> the product of their standard deviations.
+> The form of the definition involves a "product moment",
+> that is, the mean (the first moment about the origin)
+> of the product of the mean-adjusted random variables.
 
 ## Function 
 ```pearson_correlation(X, Y)```
