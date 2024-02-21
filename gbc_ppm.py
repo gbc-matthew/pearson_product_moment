@@ -29,17 +29,17 @@ def pearson_correlation(X, Y) -> float:
         sum_X_diffs_sq = sum([x**2 for x in X_diffs])
         sum_Y_diffs_sq = sum([y**2 for y in Y_diffs])
         sum_XY_diffs = sum([x * y for (x, y) in zip(X_diffs, Y_diffs)])
-        r = sum_XY_diffs / (math.sqrt(sum_X_diffs_sq) * math.sqrt(sum_Y_diffs_sq))
+        r = sum_XY_diffs / (math.sqrt(sum_X_diffs_sq) * math.sqrt(sum_Y_diffs_sq
         return r
     except Exception as e:
-        print(f"An error has occured:/n{e}")
+        print(f"An error has occured:/n{str(e)}")
 
 def main():
     # Example
     X = [1, 2, 3, 4, 4, 4, 5, 6, 7]
-    y = [1, 2, 3, 3, 3, 3, 5, 5, 6]
+    Y = [1, 2, 3, 3, 3, 3, 5, 5, 6]
 
     print(pearson_correlation(X, Y))
 
-if __init__ == "__main__":
+if __name__ == "__main__":
     main()
